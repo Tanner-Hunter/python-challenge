@@ -57,3 +57,12 @@ print('Greatest Decrease in Profits: ' + str(date2) +' ($'+  str(gdp) + ')')
 # %%
 import sys
 sys.stdout = open('bank_results.txt', 'w') 
+
+print('Financial Analysis')
+print('-----------------------------------------')
+
+print('total months: ' + str(total_months))
+print('total: $' + str(total))
+print('average change: $' + str(mean))
+print('Greatest Increase in Profits: ' + str(date)  +' ($'+ str(gip) + ')')
+print('Greatest Decrease in Profits: ' + str(date2) +' ($'+  str(gdp) + ')')
