@@ -55,3 +55,13 @@ print('Winner: ' + str(winner))
 # %%
 import sys
 sys.stdout = open('poll_results.txt', 'w')
+
+print('Election Results')
+print('------------------------------------------------------------------------------')
+print('Total Votes: ' + str(total_votes))
+print('-------------------------------------------------------------------------------')
+print('Charles Casper Stockham: ' + str(Charles_perc) + '% (' + str(Charles) +')')
+print('Diana DeGette: ' + str(Diana_perc) + '% (' + str(Diana) +')')
+print('Raymon Anthony Doane: ' + str(Raymon_perc) + '% (' + str(Raymon) +')')
+print('--------------------------------------------------------------------------------')
+print('Winner: ' + str(winner))
